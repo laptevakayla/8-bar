@@ -1142,6 +1142,7 @@ footer a {
         position: absolute;
         font-family: 'AGLettericaExtraCompressed';
         font-style: italic;
+        -webkit-text-size-adjust: 100%;
         /*width: 100vw;*/
     }
 
@@ -1149,12 +1150,14 @@ footer a {
         letter-spacing: 0.004vw;
         font-size: 15.4vw;
         position: absolute;
+        -webkit-text-size-adjust: 100%;
         /*width: 100vw;*/
     }
 
     h3 {
         letter-spacing: 0.004vw;
         font-size: 6.5vw;
+        -webkit-text-size-adjust: 100%;
     }
 
     button {
@@ -1240,7 +1243,6 @@ footer a {
     /*}*/
 
     .title-1 {
-        font-size: 23vw;
         top: 29.4vw;
         left: 18vw;
     }
