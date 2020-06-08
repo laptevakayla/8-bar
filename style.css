@@ -249,7 +249,7 @@ h1 {
 
 h2 {
     font-family: 'AGLettericaExtraCompressed';
-    font-size: 10vw;
+    font-size: 9vw;
     font-style: italic;
     margin: 0;
 }
@@ -583,13 +583,16 @@ a:hover {
 
 .video-screen__title-1 {
     position: absolute;
-    top: 6.6vw;
-    left: 30.2vw;
+    top: 7.6vw;
+    left: 26.2vw;
+    font-size: 9vw;
 }
 .video-screen__title-2 {
     position: absolute;
-    top: 13.5vw;
-    left: 26.5vw;
+    top: 15vw;
+    left: 24.5vw;
+    font-size: 9vw;
+    left: 22.5vw;
 }
 
 .video-screen h3 {
@@ -653,6 +656,7 @@ a:hover {
     position: absolute;
     top: 4vw;
     left: 38.3vw;
+    font-size: 8vw;
     line-height: 8.1vw;
 }
 
@@ -734,7 +738,8 @@ a:hover {
 .articles-screen__title-2 {
     position: absolute;
     top: 10.5vw;
-    left: 37.8vw;
+    left: 40vw;
+    font-size: 8vw;
 }
 
 /*======================================motivation-screen*/
@@ -762,13 +767,14 @@ a:hover {
 
 .motivation-screen__title-1 {
     position: absolute;
-    top: 1.5vw;
-    left: 16.6vw;
+    top: 2.5vw;
+    left: 12.6vw;
+    font-size: 9vw;
 }
 .motivation-screen__title-2 {
     position: absolute;
-    top: 9.5vw;
-    left: 20.2vw;
+    top: 11vw;
+    left: 17.2vw;
 }
 
 .motivation-screen h3 {
@@ -809,20 +815,22 @@ a:hover {
 
 .slider-screen__title-1 {
     position: absolute;
-    top: 0;
+    top: 0vw;
+    font-size: 8vw;
     left: 42.5vw;
 }
 
 .slider-screen__title-2 {
     position: absolute;
-    top: 7.5vw;
-    left: 40.6vw;
+    top: 7vw;
+    left: 39.6vw;
+    font-size: 8vw;
 }
 
 .slider-screen h3 {
     position: absolute;
-    top: 13.1vw;
-    left: 62.4vw;
+    top: 10.1vw;
+    left: 63.4vw;
 }
 
 .slider-screen p {
@@ -910,10 +918,10 @@ a:hover {
 
 .appreciate-screen__title-1 {
     position: absolute;
-    top: 34.5vw;
-    left: 30vw;
+    top: 35.5vw;
+    left: 28vw;
     font-family: 'AGLettericaExtraCompressed';
-    font-size: 7vw;
+    font-size: 6vw;
     font-style: italic;
     letter-spacing: 0.09vw;
     z-index: 2;
@@ -921,10 +929,10 @@ a:hover {
 
 .appreciate-screen__title-2 {
     position: absolute;
-    top: 40vw;
-    left: 25vw;
+    top: 41vw;
+    left: 22vw;
     font-family: 'AGLettericaExtraCompressed';
-    font-size: 7vw;
+    font-size: 6vw;
     font-style: italic;
     letter-spacing: 0.09vw;
     z-index: 2;
@@ -1131,14 +1139,14 @@ footer a {
     }
 
     h1 {
-        font-size: 24vw;
+        font-size: 23vw;
         position: absolute;
         /*width: 100vw;*/
     }
 
     h2 {
         letter-spacing: 0.004vw;
-        font-size: 19.4vw;
+        font-size: 15.4vw;
         position: absolute;
         /*width: 100vw;*/
     }
@@ -1226,22 +1234,22 @@ footer a {
     /*}*/
 
     .title-1 {
-        top: 24.4vw;
+        top: 29.4vw;
         left: 18vw;
     }
 
     .title-2 {
-        top: 45vw;
+        top: 49vw;
         left: 14.5vw;
     }
 
     .title-3 {
-        top: 66vw;
+        top: 70vw;
         left: 11vw;
     }
 
     .title-4 {
-        top: 87.5vw;
+        top: 90.5vw;
         left: 8vw;
     }
 
@@ -1261,7 +1269,7 @@ footer a {
     .product-screen {
         position: relative;
         width: 100vw;
-        height: 176.2vw;
+        height: 154.2vw;
     }
 
     .product-screen__img-mob {
@@ -1314,7 +1322,7 @@ footer a {
 
     .video-container {
         height: 70vw;
-        top: 36vw;
+        top: 32vw;
     }
 
     .video-screen__img-mob {
@@ -1331,14 +1339,16 @@ footer a {
 
     .video-screen__title-1 {
         position: absolute;
-        top: 19vw;
+        top: 24vw;
         left: 4.1vw;
+        font-size: 20vw;
     }
 
     .video-screen__title-2 {
         position: absolute;
-        top: 99vw;
-        left: 28.1vw;
+        top: 100vw;
+        left: 26.1vw;
+        font-size: 17vw;
     }
 
     .play {
@@ -1371,7 +1381,7 @@ footer a {
 
     .articles-screen {
         width: 100vw;
-        height: 139.2vw;
+        height: 133.2vw;
         position: relative;
     }
 
@@ -1379,12 +1389,14 @@ footer a {
         position: absolute;
         top: 31px;
         left: 6.5vw;
+        font-size: 15vw;
     }
 
     .articles-screen__title-2 {
         position: absolute;
-        top: 72vw;
+        top: 75vw;
         left: 51vw;
+        font-size: 15vw;
     }
 
     .articles-screen h3 {
@@ -1444,14 +1456,15 @@ footer a {
 
     .motivation-screen__title-1 {
         position: absolute;
-        top: 9vw;
+        top: 12vw;
         left: 7vw;
+        font-size: 15vw;
     }
 
     .motivation-screen__title-2 {
         position: absolute;
-        top: 82vw;
-        left: 37.5vw;
+        top: 87vw;
+        left: 35.5vw;
     }
 
     .motivation-screen h3 {
@@ -1530,21 +1543,22 @@ footer a {
         z-index: -1;
         width: 100vw;
         height: 72vw;
-        left: 0;
+        left: 17vw;
+        top: 6vw;
     }
 
     .appreciate-screen__title-1 {
         position: absolute;
-        font-size: 17vw;
-        top: 1.9vw;
+        font-size: 15vw;
+        top: -1.1vw;
         left: 5vw;
     }
 
     .appreciate-screen__title-2 {
         position: absolute;
-        font-size: 17vw;
-        top: 66.5vw;
-        left: 11vw;
+        font-size: 14vw;
+        top: 70.5vw;
+        left: 7vw;
     }
 
     .appreciate-screen h3 {

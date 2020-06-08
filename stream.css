@@ -238,7 +238,7 @@ body {
         top: 22vw;
         left: 0vw;
         width: 100vw;
-        height: 83vw;
+        height: 73vw;
     }
 
     .main-screen h1 {
@@ -246,11 +246,13 @@ body {
         top: 26vw;
         left: 12vw;
         letter-spacing: 2vw;
-        font-size: 28vw;
+        font-size: 23vw;
     }
 
     .main-screen .video-container {
         height: 83vw;
+        position: absolute;
+        top: -8vw;
     }
 
     .speed-screen {
@@ -357,15 +359,25 @@ body {
     }
 
     .stream-page .style-screen h3 {
-        top: -15vw;
+        top: -12vw;
+        width: 80vw;
     }
 
     .style-screen__img {
-        display: none;
+        /* display: none; */
     }
 
     .style-screen__img-mob {
         display: block;
+        position: absolute;
+        width: 75vw;
+        height: 112vw;
+        top: 5vw;
+        left: 6vw;
+        display: none;
+    }
+
+    .style-screen__img {
         position: absolute;
         width: 75vw;
         height: 112vw;
@@ -391,7 +403,7 @@ body {
     .style-screen__text-mob {
         display: block;
         position: absolute;
-        top: 96.5vw;
+        top: 97.5vw;
         left: 6vw;
         font-size: 6vw;
         line-height: 7.3vw;
