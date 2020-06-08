@@ -1342,6 +1342,7 @@ footer a {
         top: 24vw;
         left: 4.1vw;
         font-size: 20vw;
+        width: 100vw;
     }
 
     .video-screen__title-2 {
