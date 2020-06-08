@@ -1366,6 +1366,7 @@ footer a {
     .play-icon svg {
         height: 5.5vw;
         width: 5.5vw;
+        margin-left: 1vw;
     }
 
     .play-text {
