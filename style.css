@@ -1171,6 +1171,9 @@ footer a {
     button a {
         height: 12vw;
         width: 56vw;
+        left: 0;
+        top: 0;
+        position: absolute;
     }
 
     .languages,
