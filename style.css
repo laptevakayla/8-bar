@@ -1187,7 +1187,8 @@ footer a {
     .slider-screen__img,
     .slider-screen h3,
     .trapeze,
-    .side-text {
+    .side-text,
+    .main-page_img {
         display: none;
     }
 
@@ -1202,13 +1203,14 @@ footer a {
         height: 176.2vw;
     }
 
-    .main-page_img {
+    .main-page_img-mob {
         display: block;
         position: absolute;
-        top: 66vw;
+        top: 70vw;
         left: 0vw;
-        width: 107vw;
-        height: 101vw;
+        width: 100vw;
+        height: 87vw;
+        z-index: -1;
     }
 
     .logo img {
