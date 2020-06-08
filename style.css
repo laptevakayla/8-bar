@@ -1163,6 +1163,11 @@ footer a {
         font-size: 5vw;
     }
 
+    button a {
+        height: 12vw;
+        width: 56vw;
+    }
+
     .languages,
     .log-in,
     .nav-links,
