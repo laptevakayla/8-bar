@@ -1,0 +1,232 @@
+body {
+    background: black;
+}
+
+
+.shop-page {
+    position: relative;
+    height: 80.7vw;
+    width: 100vw;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 27vw;
+    padding-right: 5.5vw;
+}
+
+.product__inner {
+    opacity: 0;
+    transform: translate(0px, 70px);
+    transition: all 1s ease;
+}
+
+.product--show .product__inner {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.product_cart {
+    background: white;
+    width: 24.1vw;
+    height: 24.1vw;
+    transition: background-color .2s linear;
+    display: flex;
+}
+
+.product_cart:hover {
+    background: #A0A0A0;
+}
+
+.product_cart:hover .product_cart__button-buy {
+    opacity: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    z-index: 2;
+    width: 17.9vw;
+    height: 4vw;
+    background: rgba(0, 0, 0, 0.6);
+    border: 2px solid #FFFFFF;
+    backdrop-filter: blur(5px);
+    outline: none;
+    color: white;
+}
+
+.product_cart__button-buy {
+    opacity: 0;
+    margin: auto;
+    z-index: -1;
+    transition: opacity .4s linear, backdrop-filter .1s linear;
+}
+
+.product_cart:hover .product_cart__button-buy:hover {
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+
+.products {
+    display: flex;
+    position: absolute;
+    top: 8.55vw;
+    left: 8.4vw;
+    height: 68vw;
+    width: 91.3vw;
+    flex-wrap: wrap;
+}
+
+.product__info {
+    top: 24.5vw;
+    position: absolute;
+}
+
+.product__title {
+    font-size: 1.6vw;
+}
+
+.product__description {
+    opacity: 65%;
+    font-size: 1vw;
+}
+
+.product__price {
+    position: absolute;
+    font-weight: 300;
+    top: 0vw;
+    left: 21.5vw;
+    font-size: 2vw;
+    letter-spacing: .2vw;
+}
+
+.product_cart__product-img-container {
+    width: 12.6vw;
+    height: 17.2vw;
+    position: absolute;
+    top: 3.5vw;
+    left: 5.8vw;
+}
+
+.product_cart__product-img {
+    width: 12.6vw;
+    height: 17.2vw;
+    transition: transform .2s linear;
+    transform-origin: 50% 50% 0;
+}
+
+.product_cart__shadow {
+    width: 27.9vw;
+    height: 1.6vw;
+    position: absolute;
+    top: 20vw;
+    left: -1vw;
+}
+
+/*============================================hover-effects*/
+
+.card {
+    position: relative;
+    width: 240px;
+    height: 320px;
+}
+
+.card-bg {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 100%;
+    height: 100%;
+    transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95), opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+@media screen and (max-width: 991px) {
+
+    .shop-page {
+        height: 300vw;
+        position: relative;
+        width: 100vw;
+    }
+
+    .products {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 26vw;
+        left: 6vw;
+        width: 80vw;
+        height: 853vw;
+    }
+
+    .product {
+        width: 88vw;
+        height: 140vw;
+        position: relative;
+        padding: 0;
+    }
+
+    .product_cart {
+        width: 88vw;
+        height: 109vw;
+    }
+
+    .product__info {
+        position: absolute;
+        top: 114vw;
+        left: 0vw;
+    }
+
+    .product__title {
+        font-size: 6.4vw;
+    }
+
+    .product__description {
+        position: absolute;
+        top: 8vw;
+        font-size: 5.2vw;
+        left: 0.4vw;
+    }
+
+    .product__price {
+        position: absolute;
+        top: 1vw;
+        left: 77.6vw;
+        font-size: 9.4vw;
+    }
+
+    .product_cart__shadow {
+        width: 101.8vw;
+        height: 6vw;
+        position: absolute;
+        top: 90vw;
+        left: -8vw;
+        z-index: 1;
+    }
+
+    .product_cart__product-img {
+        width: 57.1vw;
+        height: 77.8vw;
+        position: absolute;
+        top: 11.5vw;
+        left: 9.5vw;
+    }
+
+    .product_cart:hover .product_cart__button-buy {
+        height: 20vw;
+        position: absolute;
+        top: 44vw;
+        left: 10vw;
+        width: 68vw;
+    }
+
+    .form-screen {
+        position: relative;
+        top: 600vw;
+    }
+
+    footer {
+        position: relative;
+        top: 601vw;
+    }
+}

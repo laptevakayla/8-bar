@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cart</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="cart.css" rel="stylesheet">
+</head>
+<body>
+    <div class="cart-page">
+        <header>
+            <nav>
+                <div class="nav-links">
+                    <a href="stream.html">Stream</a>
+                    <a href="shop.html">Shop </a>
+                </div>
+                <a class="logo" href="index.html">
+                    <img src="assets/logo.png">
+                </a>
+                <div class="basket">
+                    <a href="cart.html"></a>
+                    <img src="assets/basket.png" class="basket-img">
+                    <img src="assets/basket-mob.png" class="basket-mob">
+                </div>
+            </nav>
+            <nav class="mob-menuToggle">
+                <div class="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul class="mob-menu">
+                        <a href="index.html"><li>HOME</li></a>
+                        <a href="stream.html"><li>STREAM</li></a>
+                        <a href="shop.html"><li>SHOP</li></a>
+                        <a href="cart.html"><li>CART</li></a>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="cart-content">
+            <div class="cart-content__title">CART</div>
+            <a class="cart-content__back" href="shop.html">back to shop</a>
+            <div class="cart-content__products">
+                <div class="products-header">
+                    <div class="products-header__product">product</div>
+                    <div class="products-header__price">price</div>
+                    <div class="products-header__quantity">quantity</div>
+                    <div class="products-header__total-price">total (USD)</div>
+                </div>
+                <div class="no-products-message">No products in your cart</div>
+                <div class="product-row">
+                    <div class="product-row__product">
+                        <div class="product-row__img-container">
+                            <img class="product-row__img-shadow" src="assets/shadow.png">
+                            <img class="product-row__img" src="assets/TITLEМонтажная-область-2.jpg">
+                        </div>
+                        <div class="product-row__product-name">ISSUE 02</div>
+                    </div>
+                    <div class="product-row__price">$15</div>
+                    <div class="product-row__quantity">
+                        <div class="quantity-arrow__less">
+                            <img src="assets/arrow1.svg" onclick="decreaseProduct(this)">
+                        </div>
+                        <div class="quantity-numeral">1</div>
+                        <div class="quantity-arrow__more">
+                            <img src="assets/arrow2.svg" onclick="increaseProduct(this)">
+                        </div>
+                    </div>
+                    <div class="product-row__total-price">$15</div>
+                    <div class="product-row__delete">
+                        <img src="assets/button-delete.svg" onclick="deleteProduct(this)">
+                    </div>
+                </div>
+            </div>
+            <div class="cart-content__form">
+                <div class="cart-content__form-title">cart total</div>
+                <div class="cart-content__form-subtotal">
+                    <div class="subtotal-text">subtotal</div>
+                    <div class="subtotal-price">$15</div>
+                </div>
+                <div class="cart-content__form-shipping">
+                    <div class="shipping-text">shipping</div>
+                    <div class="shipping-price">$</div>
+                </div>
+                <div class="cart-content__form-text">please select your country</div>
+                <div class="country-select">
+                    <div class="country-select__text"></div>
+                    <div class="country-select__icon">
+                        <img src="assets/select-icon.svg">
+                    </div>
+                    <div class="country-select__list"></div>
+                </div>
+                <button class="cart-content__button">proceed to checkout</button>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-nav">
+                <a>shipping</a>
+                <a>terms & privacy policy</a>
+                <a>contact</a>
+            </div>
+            <div class="social-icons">
+                <a>
+                    <img src="assets/f.png"class="icon-f">
+                </a>
+                <a>
+                    <img src="assets/y-t.png" class="icon-y-t">
+                </a>
+                <a>
+                    <img src="assets/inst.png" class="icon-inst">
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
