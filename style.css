@@ -235,16 +235,15 @@ a {
     transition-timing-function: ease-out;
 }
 
-.nav-links a:hover::before {
-    right: 30%;
-}
-
 h1 {
     font-family: 'AGLettericaExtraCompressed';
-    font-size: 10.2vw;
     font-style: italic;
+    font-size: 10.2vw;
     letter-spacing: 0.09vw;
     margin: 0;
+}
+.nav-links a:hover::before {
+    right: 30%;
 }
 
 h2 {
@@ -1141,6 +1140,8 @@ footer a {
     h1 {
         font-size: 23vw;
         position: absolute;
+        font-family: 'AGLettericaExtraCompressed';
+        font-style: italic;
         /*width: 100vw;*/
     }
 
